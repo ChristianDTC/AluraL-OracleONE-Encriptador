@@ -247,7 +247,7 @@ footer{
 
 
 /* RESPONSIVE PARA CELULARES */
-@media screen and (max-width: 385px) {
+@media screen and (max-width: 400px) {
 
     main{
     display: block;
