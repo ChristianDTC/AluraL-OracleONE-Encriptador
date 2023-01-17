@@ -4,3 +4,4 @@ Al cargar un texto en el área principal lo encripta o desencripta mediante los 
 Sólo permite texto en minúsculas, espacios y sin acentos.
 Tiene la función de modo oscuro, traducir y silenciar el lextor de texto, esta activado por defecto.
 
+https://christiandtc.github.io/AluraL-OracleONE-Encriptador/
