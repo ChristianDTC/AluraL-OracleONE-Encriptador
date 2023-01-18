@@ -28,7 +28,7 @@ header{
     
 }
 .img-logo:hover , .img-logo-w:hover{
-    margin-top: 10%;
+    margin-top: 12%;
     transform: scale(2) rotate(-360deg);
 }
 
@@ -86,7 +86,7 @@ main{
     outline: none;
     resize: none;
     font-family: 'Inter', sans-serif;
-    font-size: 30px;
+    font-size: 36px;
     background-color: #F3F5FC;
     color: #0A3871;
     padding: 1% 1% 2% 2%;
@@ -122,7 +122,7 @@ main{
     width: 46%;
     height: 50px;
     border: 1px solid #0A3871;
-    font-size: 22px;
+    font-size: 26px;
     transition: 600ms all;
     margin-right: 2%;
     cursor: pointer;
@@ -135,7 +135,6 @@ main{
 .boton-desencriptar:hover, .boton-encriptar:hover, .boton-copiar:hover{
     width: 48%;
     height: 60px;
-    font-size: 23px;
     text-transform: uppercase;
 }
 /* FIN SECCION TEXTAREA - ADVERTENCIA - BOTONES */
@@ -171,9 +170,10 @@ main{
     box-sizing: border-box;
     overflow: hidden;
     text-align: center;
+    font-size: 19px;
 }
 .contenedor-p{
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .contenedor-tx-encriptado{
@@ -183,7 +183,7 @@ main{
     padding-top: 5%;
     box-sizing: border-box;
     overflow: auto;
-    font-size: 26px;
+    font-size: 30px;
 }
 
 .contenedor-copiar{
@@ -255,6 +255,9 @@ footer{
     .img-logo, .img-logo-w{
         margin-top: 5%;
     }
+    .img-logo:hover , .img-logo-w:hover{
+        transform: none;
+    }
 
     .section-textarea{
         width: 100%;
@@ -303,6 +306,12 @@ footer{
     .boton-encriptar{
         margin-bottom: 2%;
     }
+    .boton-desencriptar:hover, .boton-encriptar:hover{
+        width: 100%;
+        height: 35px;
+        font-size: 18px;
+        text-transform: none;
+    }
 
 
     .section-munieco{
@@ -340,9 +349,115 @@ footer{
         height: 30px;
         font-size: 18px;
     }
+    .boton-copiar:hover{
+        width: 80%;
+        height: 30px;
+        font-size: 18px;
+        text-transform: none;
+    }
 
     footer{
         width: 100%;
         margin: 28% 0 0 16%;
     }
+    .fa-brands:hover{
+        transform: none;
+    }
+}
+/* FIN RESPONSIVE PARA CELULARES */
+
+
+/* RESPONSIVE PARA TABLETS */
+@media screen and (min-width: 401px) and (max-width: 800px){
+
+    main{
+        display: block;
+        }
+        .img-logo, .img-logo-w{
+            margin-top: 5%;
+        }
+        .img-logo:hover , .img-logo-w:hover{
+            transform: none;
+        }
+    
+        .section-textarea{
+            width: 100%;
+            height: 68%;
+            margin: 0;
+        }
+        .contenedor-textarea{
+            width: 100%;
+            height: 90%;
+            margin: 5% auto 0;
+        }
+        .textarea{
+            width: 100%;
+            height: 80%;
+            font-size: 32px;
+            font-family: 'Inter', sans-serif;
+            margin: 5% 10%;
+        }
+        .contenedor-advertencia{
+            margin-left: 11%;
+        }
+    
+        .contenedor-btn{
+            width: 100%;
+            margin: 0 10%;
+        }
+        .boton-encriptar, .boton-desencriptar{
+            font-size: 28px;
+        }
+        .boton-desencriptar:hover, .boton-encriptar:hover{
+            width: 46%;
+            height: 50px;
+            font-size: 28px;
+            text-transform: none;
+        }    
+    
+        .section-munieco{
+            width: 100%;
+            height: 40%;
+            margin: 18% 10% 0;
+        }
+        .contenedor-munieco{
+            display: none;
+        }
+        .contenedor-h3, .contenedor-p{
+            width: 100%;
+            height: 25%;
+        }
+        .contenedor-h3{
+            margin-top: 10%;
+            font-size: 22px;
+        }
+        .contenedor-p{
+            font-size: 18px;
+        }
+    
+        .contenedor-tx-encriptado{
+            height: 65%;
+            padding-bottom: 10%;
+            margin-bottom: 2%;
+        }
+        
+        .boton-copiar{
+            height: 45px;
+            font-size: 28px;
+        }
+        .boton-copiar:hover{
+            width: 80%;
+            height: 45px;
+            font-size: 28px;
+            text-transform: none;
+        }
+    
+        footer{
+            width: 100%;
+            margin: 32% 0 0 15%;
+        }
+
+        .fa-brands:hover{
+            transform: none;
+        }
 }
